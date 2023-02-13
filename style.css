@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#app_header{
+    height: 50px;
+    background-color: orangered;
+    
+}
+.flex_container{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.bar{
+      
+}
+.barl{
+    
+}
