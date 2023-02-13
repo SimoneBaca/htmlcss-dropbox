@@ -4,20 +4,183 @@
     padding: 0;
 }
 
-#app_header{
+#app_header {
     height: 50px;
     background-color: orangered;
-    
+
 }
-.flex_container{
+
+.flex_container {
     display: flex;
     justify-content: space-around;
     padding: 1rem;
 }
 
-.bar{
-      
+.bar {}
+
+.barl {}
+
+#app_main {}
+
+.titolo {
+    display: flex;
+    justify-content: center;
 }
-.barl{
-    
+
+.block {
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px dashed black;
+    width: 500px;
+    text-align: center;
+
+
+
+}
+
+
+.block2 {
+    display: flex;
+    justify-content: center;
+}
+
+.squareblock2 {
+    width: 300px;
+    height: 20rem;
+    margin: 1rem 0;
+    border: 1px dashed black;
+}
+
+.squareblock3 {
+    width: 500px;
+    height: 20rem;
+    margin: 1rem 0;
+    border: 1px dashed black;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.column1 {
+    width: 200px;
+    margin: 1rem 0;
+    border: 1px dashed black;
+    height: 500px;
+
+}
+
+.column2 {
+    width: 200px;
+    margin: 1rem 0;
+    border: 1px dashed black;
+    height: 500px;
+
+}
+
+.column3 {
+    width: 200px;
+    margin: 1rem 0;
+    border: 1px dashed black;
+    height: 500px;
+
+}
+
+.block3 {
+    display: flex;
+    justify-content: center;
+}
+
+.blockimg {
+    width: 500px;
+    height: 20rem;
+    margin: 1rem 0;
+    border: 1px dashed black;
+}
+
+.blocktext {
+    width: 300px;
+    height: 20rem;
+    margin: 1rem 0;
+    border: 1px dashed black;
+}
+
+.colimg {
+    display: flex;
+    justify-content: center;
+
+}
+
+.colimg1 {
+    width: 400px;
+    border: 1px dashed black;
+    height: 300px;
+
+}
+
+.coltext2 {
+    width: 400px;
+    border: 1px dashed black;
+    height: 300px;
+
+}
+
+.colimg3 {
+    width: 400px;
+    border: 1px dashed black;
+    height: 300px;
+
+}
+
+.orbar {
+    display: flex;
+    justify-content: center;
+}
+
+.orizontal {
+    width: 1200px;
+    border: 1px dashed black;
+    height: 200px;
+    margin: 0rem;
+}
+
+#app_footer {
+    background-color: yellow;
+}
+
+.fcol {
+    display: flex;
+    justify-content: center;
+}
+
+.fcol1 {
+    width: 100px;
+    border: 1px dashed black;
+    height: 200px;
+}
+
+.fcol2 {
+    width: 100px;
+    border: 1px dashed black;
+    height: 200px;
+}
+
+.fcol3 {
+    width: 100px;
+    border: 1px dashed black;
+    height: 200px;
+}
+
+.fcol4 {
+    width: 100px;
+    border: 1px dashed black;
+    height: 200px;
+}
+
+.fcol5 {
+    width: 100px;
+    border: 1px dashed black;
+    height: 200px;
 }
