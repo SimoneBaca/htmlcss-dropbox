@@ -87,44 +87,51 @@
 
 .titolo1 {
     display: flex;
-    justify-content:center;  
+    justify-content: center;
 }
 
-.t2{
+.t2 {
     font-size: 30px;
 }
 
-.radio{
-   text-align: left;
-  
+.radio {
+    text-align: left;
+
 }
 
 .columns {
     display: flex;
     justify-content: space-around;
-        
+
 }
 
 .column1 {
     width: 200px;
     margin: 1rem 0;
     border: 1px solid black;
-    height: 500px;
+    height: 700px;
 }
-   
+.col1text{
+    margin-left: 10px;
 
-.nopunti{
-    list-style:none ;
+
 }
-.casella{
+
+.nopunti { 
+   list-style: none;
+}
+
+.casella {
     text-align: center;
     width: 200px;
     border: 1px solid black;
 
 }
 
-.prova{
-    color:white;
+
+
+.prova {
+    color: white;
     background-color: blue;
     border: 1rem solid blue;
 
@@ -132,21 +139,23 @@
 }
 
 
-
+hr{
+    width: 20px;
+}
 
 .column2 {
-    
+
     width: 200px;
     margin: 1rem 0;
     border: 1px dashed black;
-    height: 500px;
+    height: 700px;
 }
 
 .column3 {
     width: 200px;
     margin: 1rem 0;
     border: 1px dashed black;
-    height: 500px;
+    height: 700px;
 }
 
 
