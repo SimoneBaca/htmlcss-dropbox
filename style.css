@@ -48,11 +48,11 @@
 }
 
 .block {
-    padding: 1rem;
+
     margin: 1rem;
     border: 1px dashed black;
-    width: 500px;
     text-align: center;
+    padding: 1rem;
 }
 
 .t1 {
@@ -71,10 +71,11 @@
     height: 20rem;
     margin: 1rem 0;
     border: 1px dashed black;
+    padding: 1rem;
 }
 
 .squareblock3 {
-    width: 500px;
+    width: 600px;
     height: 20rem;
     margin: 1rem 0;
     border: 1px dashed black;
@@ -82,12 +83,23 @@
 
 .jumbo {
     width: 100%;
-    height: 100%;
+    height: 400px;
+}
+
+.prova {
+    background-color: blue;
+    border: 1px solid blue;
+}
+
+.freccia {
+    font-size: 40px;
+
 }
 
 .titolo1 {
     display: flex;
     justify-content: center;
+    margin: 3rem;
 }
 
 .t2 {
@@ -111,14 +123,18 @@
     border: 1px solid black;
     height: 700px;
 }
-.col1text{
+
+.col1text {
     margin-left: 10px;
-
-
 }
 
-.nopunti { 
-   list-style: none;
+.mese {
+    opacity: 0.5;
+}
+
+.nopunti {
+
+    list-style: none;
 }
 
 .casella {
@@ -135,11 +151,10 @@
     background-color: blue;
     border: 1rem solid blue;
 
-
 }
 
 
-hr{
+hr {
     width: 20px;
 }
 
@@ -158,25 +173,102 @@ hr{
     height: 700px;
 }
 
+.titolo2 {
+    display: flex;
+    justify-content: center;
 
+}
+
+.Team {
+    border: 1px dashed black;
+    text-align: center;
+    padding: 1rem;
+}
+
+.enterprise {
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+
+
+
+.enterbutton {
+    display: flex;
+}
+
+
+.link {
+
+    margin-left: 450px;
+    background-color: blue;
+    color: white;
+    border: solid blue;
+
+}
 
 .block3 {
+
     display: flex;
     justify-content: center;
 }
 
-.blockimg {
-    width: 500px;
-    height: 20rem;
+
+.partner{
+width: 100%;
+
+}
+
+.buttonpartner{
+    
+    padding: 1rem;
+}
+
+.cards{
+    display: flex;
+  justify-content: center;
+     
+}
+.cards1{
+    display: flex;
+    justify-content: center; 
+
+}  
+.card1{
+    width: 300px;
     margin: 1rem 0;
+    border: 1px dashed black;
+   
+}
+.card2{
+
+    width: 300px;
+    margin: 1rem 0;
+    border: 1px dashed black;  
+
+}
+
+.strumento{
+padding: 1rem;
+
+}
+img{
+    width: 100%;
+}
+.blockimg {
+    
+    width: 600px;
+    margin: 2rem 0;
     border: 1px dashed black;
 }
 
 .blocktext {
     width: 300px;
-    height: 20rem;
-    margin: 1rem 0;
+    margin: 2rem 0;
     border: 1px dashed black;
+    padding: 1rem;
 }
 
 .colimg {
