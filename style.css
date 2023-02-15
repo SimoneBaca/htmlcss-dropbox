@@ -367,7 +367,8 @@ img {
 
 .orbar {
     display: flex;
-    justify-content: center;
+    justify-content:center;
+    
 }
 
 .orizontal {
@@ -375,7 +376,41 @@ img {
     border: 1px dashed black;
     height: 200px;
     margin: 0rem;
+    background-color: lightblue;
+    
 }
+
+.drop{
+    display: flex;
+    justify-content: space-around;
+   padding: 3rem;
+}
+
+.dropbox{
+    color: darkred;
+}
+
+.free{
+    border: 1px solid white;
+}
+
+.titolo4{
+   
+    margin: 3rem;
+}
+
+.block4{
+    width: 700px;
+    margin: 1rem;
+    border: 1px dashed black;
+    height: 200px;
+    margin-left: 200px;
+}
+
+.longhr{
+width: 500px;
+}
+
 
 #app_footer {
     background-color: yellow;
