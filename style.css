@@ -33,12 +33,6 @@
 
 }
 
-.bar {
-    ;
-}
-
-.barl {}
-
 #app_main {}
 
 .titolo {
@@ -47,10 +41,8 @@
     background-color: lightblue;
 }
 
-.block {
 
-    margin: 1rem;
-    border: 1px dashed black;
+.blocktitle {
     text-align: center;
     padding: 1rem;
 }
@@ -70,7 +62,6 @@
     width: 300px;
     height: 20rem;
     margin: 1rem 0;
-    border: 1px dashed black;
     padding: 1rem;
 }
 
@@ -78,7 +69,12 @@
     width: 600px;
     height: 20rem;
     margin: 1rem 0;
-    border: 1px dashed black;
+
+}
+
+.blockpiano {
+    margin-right: 200px;
+    padding: 2rem;
 }
 
 .jumbo {
@@ -113,14 +109,15 @@
 
 .columns {
     display: flex;
-    justify-content: space-around;
+    gap: 2rem;
+    justify-content: center;
 
 }
 
 .column1 {
     width: 200px;
     margin: 1rem 0;
-    border: 1px solid black;
+    border: 1px solid lightgray;
     height: 700px;
 }
 
@@ -140,7 +137,7 @@
 .casella {
     text-align: center;
     width: 200px;
-    border: 1px solid black;
+    border: 1px solid lightgray;
 
 }
 
@@ -162,14 +159,14 @@ hr {
 
     width: 200px;
     margin: 1rem 0;
-    border: 1px dashed black;
+    border: 1px solid lightgray;
     height: 700px;
 }
 
 .column3 {
     width: 200px;
     margin: 1rem 0;
-    border: 1px dashed black;
+    border: 1px solid lightgray;
     height: 700px;
 }
 
@@ -180,9 +177,10 @@ hr {
 }
 
 .Team {
-    border: 1px dashed black;
+    border: 1px solid lightgray;
     text-align: center;
     padding: 1rem;
+
 }
 
 .enterprise {
@@ -190,10 +188,15 @@ hr {
     text-align: start;
     flex-direction: column;
     padding: 1rem;
+    border: 1px solid lightgray;
+
 }
 
 
-
+.blockenterp {
+    justify-content: center;
+    padding: 1rem;
+}
 
 .enterbutton {
     display: flex;
@@ -222,14 +225,19 @@ hr {
 }
 
 .buttonpartner {
-
     padding: 1rem;
+    background-color: white;
+}
+
+.blockbusines {
+    margin: 1rem;
+    padding: 1rem;
+    margin-left: 200px;
 }
 
 .cards {
     display: flex;
     justify-content: center;
-
 }
 
 .cards1 {
@@ -241,7 +249,7 @@ hr {
 .card1 {
     width: 300px;
     margin: 1rem 0;
-    border: 1px dashed black;
+
 
 
 }
@@ -250,7 +258,7 @@ hr {
 
     width: 300px;
     margin: 1rem 0;
-    border: 1px dashed black;
+
 
 }
 
@@ -267,14 +275,12 @@ img {
 
     width: 600px;
     margin: 2rem 0;
-    border: 1px dashed black;
 }
 
 .blocktext {
     width: 300px;
     margin: 2rem 0;
-    border: 1px dashed black;
-    padding: 1rem;
+    padding: 3rem;
 }
 
 .colimg1 {
@@ -291,13 +297,13 @@ img {
 
     width: 200px;
     height: 200px;
-    border: 1px dashed black;
+
 }
 
 .photos {
     width: 400px;
     height: 200px;
-    border: 1px dashed black;
+
     padding: 1rem;
 
 }
@@ -323,7 +329,7 @@ img {
 
     width: 200px;
     height: 200px;
-    background-color:red;
+    background-color: red;
     padding: 1rem;
 }
 
@@ -344,7 +350,7 @@ img {
 .florida {
     width: 200px;
     height: 200px;
-    background-color:skyblue;
+    background-color: skyblue;
     padding: 1rem;
 }
 
@@ -359,7 +365,7 @@ img {
 .clear {
     width: 200px;
     height: 200px;
-    background-color:yellow;
+    background-color: yellow;
     padding: 1rem;
 
 
@@ -367,86 +373,94 @@ img {
 
 .orbar {
     display: flex;
-    justify-content:center;
-    
+    justify-content: center;
+
 }
 
 .orizontal {
     width: 1200px;
-    border: 1px dashed black;
     height: 200px;
     margin: 0rem;
     background-color: lightblue;
-    
+
 }
 
-.drop{
+.drop {
     display: flex;
     justify-content: space-around;
-   padding: 3rem;
+    padding: 3rem;
 }
 
-.dropbox{
+.dropbox {
     color: darkred;
 }
 
-.free{
+.free {
     border: 1px solid white;
 }
 
-.titolo4{
-   
+.titolo4 {
+
     margin: 3rem;
 }
 
-.block4{
+.block {
+    padding: 1rem;
+    margin: 1rem;
+    margin-left: 300px;
+}
+
+.block4 {
     width: 700px;
     margin: 1rem;
-    border: 1px dashed black;
     height: 200px;
     margin-left: 200px;
 }
 
-.longhr{
-width: 500px;
+.longhr {
+    width: 500px;
 }
 
 
 #app_footer {
-    background-color: yellow;
+    background-color: black;
+    color: white;
+
 }
 
 .fcol {
     display: flex;
     justify-content: center;
+    padding: 1rem;
+
 }
 
 .fcol1 {
-    width: 100px;
-    border: 1px dashed black;
-    height: 200px;
+    width: 150px;
+    margin: 1rem;
+
 }
 
 .fcol2 {
-    width: 100px;
-    border: 1px dashed black;
-    height: 200px;
+    width: 150px;
+    margin: 1rem;
 }
 
 .fcol3 {
-    width: 100px;
-    border: 1px dashed black;
-    height: 200px;
+    width: 150px;
+    margin: 1rem;
 }
 
 .fcol4 {
-    width: 100px;
-    border: 1px dashed black;
-    height: 200px;
+    width: 150px;
+    margin: 1rem;
 }
 
 .fcol5 {
+    width: 150px;
+    margin: 1rem;
+}
+
+.italiano {
     width: 100px;
-    border: 1px dashed black;
-    height: 200px;
 }
