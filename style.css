@@ -4,6 +4,12 @@
     padding: 0;
 }
 
+body{
+font-family:Arial, Helvetica, sans-serif;
+
+
+}
+
 #app_header {
     height: 50px;
     background-color: white;
@@ -73,7 +79,7 @@
 }
 
 .blockpiano {
-    margin-right: 200px;
+    margin-right: 150px;
     padding: 2rem;
 }
 
@@ -118,7 +124,7 @@
     width: 200px;
     margin: 1rem 0;
     border: 1px solid lightgray;
-    height: 700px;
+    
 }
 
 .col1text {
@@ -160,14 +166,14 @@ hr {
     width: 200px;
     margin: 1rem 0;
     border: 1px solid lightgray;
-    height: 700px;
+   
 }
 
 .column3 {
     width: 200px;
     margin: 1rem 0;
     border: 1px solid lightgray;
-    height: 700px;
+    
 }
 
 .titolo2 {
